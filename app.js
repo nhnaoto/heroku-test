@@ -1,3 +1,9 @@
+var express = require('express');
+var request = require('request');
+var path = require('path');
+var querystring = require('querystring');
+var cookieParser = require('cookie-parser');
+
 var http = require('http'); //httpモジュール呼び出し
 var server = http.createServer(function (request, response) {
     // リクエストを受けると以下のレスポンスを送信する
