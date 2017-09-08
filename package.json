@@ -1,10 +1,6 @@
 {
   "name": "testapp",
-  "version": "0.0.2",
-   "dependencies": {
-    "cookie-parser": "^1.4.3",
-    "express": "^4.15.4"
-  },
+  "version": "0.0.2"
   "scripts": {
     "start": "node app.js"
   }
