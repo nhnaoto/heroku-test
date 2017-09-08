@@ -4,8 +4,8 @@ var path = require('path');
 // var querystring = require('querystring');
 var cookieParser = require('cookie-parser');
 
-var client_id = process.env.CLIENT_ID;
-var client_secret = process.env.CLIENT_SECRET;
+var client_id = process.env.client_id;
+var client_secret = process.env.client_secret;
 
 
 var http = require('http'); //httpモジュール呼び出し
