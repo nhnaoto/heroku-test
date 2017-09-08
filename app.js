@@ -5,4 +5,4 @@ var server = http.createServer(function (request, response) {
     response.write('Hello World\n'); // レスポンスボディに「Hello World」を書き込み
     response.end(); // レスポンス送信を完了する
 });
-server.listen(4200);  //4200番ポートで待ち受け
+server.listen(4400);
